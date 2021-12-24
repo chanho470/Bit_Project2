@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+/* =================================================================== */
+/*바디 시작*/
+body{
+    background:url("../images/background.jpg") ;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center;
+}
+
+.main{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+} 
+.search {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.search1{
+    width: 50%;
+    margin: 0 25% 0 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo{
+    font-size: 100px;
+    color: transparent;
+    background: url("../images/back.jpg");
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    -webkit-text-stroke: 2px rgb(67, 113, 197);
+    -webkit-background-clip: text;
+    font-family: 'Yellowtail', cursive;
+}
+@keyframes back{
+    100%{
+        background-position: 1000px 0;
+    }
+}
+
+
+/* =========================================================== */
+.main2{
+    width: 100%;
+    height: 1700px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    background-color: rgba(220, 218, 233, 0.7);
+    border-radius: 50px;
+} 
+.search2{
+    width: 100%;
+    margin-left: 2%;
+}
+.search3{
+	width: 100%;
+    margin-top: 5%;
+    
+}
+/* .search4{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.search5{
+    margin-top: 5%;
+    text-align: center;
+} */
+
+.search2>#unit{
+    float: left;
+    width: 20%;
+    margin: 2%;
+    height: 20%;
+}
+.search2>#unit>img{
+    width: 100%;
+   
+}
+#proimg{
+	width:100%;
+}
+.search2>#unit>#name{
+    font-size: 20px;
+    font-weight: 900;
+    margin: 5px;
+    padding: 3px;
+}
+.search2>#unit>#hash{
+    font-size: 16px;
+    font-weight: 900;
+    padding: 3px;
+}
+#money{
+    font-size: 25px;
+    font-weight: 900;
+    padding: 3px;
+}
+
+.search3>#unit{
+    float: left;
+    width: 20%;
+    margin: 2%;
+    height: 20%;
+}
+/* .search2>#unit>img{
+    width: 100%;
+   
+} */
+#proimg{
+	width:100%;
+}
+.search3>#unit>#name{
+    font-size: 20px;
+    font-weight: 900;
+    margin: 5px;
+    padding: 3px;
+}
+.search3>#unit>#hash{
+    font-size: 16px;
+    font-weight: 900;
+    padding: 3px;
+}
+
+
+/* ===================================== */
+
+
+#f_title{
+    font-size: 300%;
+    text-align: left;
+    margin-left: 2%;
+    color: white;
+    padding-top: 5%;
+    -webkit-text-stroke: 1px rgb(67, 113, 197);
+    font-family: 'Do Hyeon', sans-serif;
+}
+#f_sub1{
+    text-align: left;
+    margin-left: 2%;
+    font-size: 250%;
+    color: white;
+    -webkit-text-stroke: 2px #666;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+
+#f_sub2{
+    margin-top: 00px;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 250%;
+    color: white;
+    -webkit-text-stroke: 2px #666;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+#f_sub3{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 250%;
+    color: white;
+    -webkit-text-stroke: 2px #666;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+#f_sub4{
+
+    text-align: left;
+    margin-left: 5%;
+    font-size: 250%;
+    color: white;
+    -webkit-text-stroke: 2px #666;
+    font-family: 'Black Han Sans', sans-serif;
+}
+/* 바디끝 */
+/* ========================================================================= */
